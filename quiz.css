@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+background-color: #f8f8f8;
+height: auto;
+line-height: 1.5;
+font-family: 'Poppins', sans-serif;
+}
+.quiz {
+    margin: 10px auto;
+    max-width: 607px; 
+    position: relative;
+    z-index: 1;
+  }
+  
+  .quiz div {
+    transition: 0.7s;
+  }
+  
+  .quiz span {
+    background-color: #ebeff5;
+    color: #1e1919;
+    margin-top: 9px;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    /*box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);*/
+    border-radius: 6px;
+  }
+  .quiz span:hover{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.1s ease;
+  }
+  
+  .quiz p {
+    background-color: #f5f5f5;
+    color: #060606;
+    min-height: 46px;
+    padding: 10px;
+    font-size: 19px;
+    margin-top: 22px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    margin-bottom: -49px;
+  }
+  
+  .selected {
+    background-color: #4999F8 !important;
+  }
+  
+  .spans {
+    margin-top: 60px;
+  }
+  
+  #btn {
+    background-color: #00b300;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 21px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 607px; 
+    margin: 35px auto;
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+ 
+  #btn:hover {
+    background-color: #019401;
+    transition:all 0.3s ease; 
+  }
+  
+  @media (min-width: 769px) {
+    .quiz {
+        width: 607px; 
+    }
+  
+    #btn {
+        width: 100%; 
+        max-width: 609px; 
+        margin-left: 362px  
+    }
+  }
+  #score-container {
+    
+    z-index: 3; 
+    position: absolute;
+    top: 221%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*to center it*/
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 386px;
+    height: 310px;
+    text-align: center;
+    line-height: 18;
+    font-weight: bold;
+    transition: all 0.7s ease;
+    border-radius: 6px;
+}
+
+#shading {
+   
+    z-index: 2; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+#timer {
+  position: fixed;
+  color: #4999F8;
+  margin-left: 18px;
+  font-size: 19px;
+}
+
+
+@media (max-width: 600px) {
+  #timer {
+    font-size: 16px; 
+    margin-left: 10px;
+  }
+}
+
+  
