@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+background-color: #ffffff;
+height: auto;
+line-height: 1.5;
+font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bton{
+    width: 193px;
+    height: 57px;
+    background-color: #22aaaa;
+    color: #f5f2f2;
+    margin: 80px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+  }
+  .bton:hover{
+    background-color: #149184;
+    transition: all 0.3s ease;
+  }
+  .test{
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(128, 255, 190, 0.4) 17%, rgb(18, 225, 166) 82%);
+  width: 100%;
+  height: 830px;
+  }
+  .test h3{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 91px;
+    font-size: 53px;
+  }
+  .intro{
+    background-color: white;
+      width: 1200px;
+      height: 456px;
+      margin-top: 155px;
+      margin-left: 250px;
+      border-radius: 4px;
+  }
+  .intro .name{
+    margin-left: 56px;
+      color: #2dd7d7;
+      width: 410px;
+      height: 141px;
+      position: relative;
+      top: 31%;
+  }
+  .intro .two{
+    font-size: 100px;
+  }
+  .intro .min{
+    font-size: 30px;
+      position: relative;
+      bottom: 122px;
+      left: 74px;
+  }
+  .intro .QC{
+    font-size: 42px;
+      font-weight: bold;
+      position: relative;
+      bottom: 140px;
+      left: 71px;
+  }
+  .hr{
+    width: 1px;
+      height: 330px;
+      background-color: #b1afaf;
+      border: none;
+      margin-left: 97%;
+      position: relative;
+      bottom: 240%;
+  }
+  .instructions{
+    max-width: 496px;
+      height: 200px;
+      margin-left: 41%;
+      font-size: 19px;
+      position: relative;
+      bottom: 10%;
+  }
+  .instructions ul{
+    position: relative;
+      top: 34px;
+      list-style: disc;
+      margin-left: 22px;
+  }
+ 
